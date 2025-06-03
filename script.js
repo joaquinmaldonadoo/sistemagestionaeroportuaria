@@ -12,7 +12,7 @@ function validarLogin() {
 }
 
 function mostrarAlertaValija() {
-    alert("Persona agregada");
+    alert("Pasajero agregado");
 }
 
 function mostrarAlertaVuelo() {
