@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar Vuelo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Agregar Vuelo</h2>
+        <form onsubmit="mostrarAlertaVuelo()">
+            <input type="text" placeholder="Número de vuelo">
+            <input type="datetime-local">
+            <input type="text" placeholder="Avión">
+            <input type="text" placeholder="Destino">
+            <input type="text" placeholder="Gate">
+            <select>
+                <option value="">Estado del vuelo</option>
+                <option value="programado">Programado</option>
+                <option value="demorado">Demorado</option>
+                <option value="cancelado">Cancelado</option>
+            </select>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agregar Valija</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Agregar Valija</h2>
+        <form onsubmit="mostrarAlertaValija()">
+            <input type="text" placeholder="Color de la valija">
+            <input type="number" placeholder="Peso (kg)">
+            <select>
+                <option value="">Tamaño</option>
+                <option value="chica">Chica</option>
+                <option value="mediana">Mediana</option>
+                <option value="grande">Grande</option>
+            </select>
+            <button type="submit">Guardar</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
