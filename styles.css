@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: url('fondo.jpg') no-repeat;
+    background: url('/images/fondo.png') no-repeat;
     background-size: cover;
 
     display: flex;
@@ -51,4 +51,22 @@ button {
     color: white;
     text-decoration: none;
     border-radius: 6px;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+.camara iframe {
+    width: 888px;
+    height: 500px;
+    border: none;
+}
+
+.acc-banner {
+    width: 100%;
+    max-width: 300px;
 }

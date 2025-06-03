@@ -1,4 +1,4 @@
-function validarLogin(event) {
+function validarLogin() {
     event.preventDefault();
 
     const usuario = document.getElementById("usuario").value;
